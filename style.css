@@ -1,0 +1,199 @@
+/* Default css */
+*{
+    margin: 0;
+    padding: o;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header css */
+.header{
+    background-color: #3498db;
+}
+.fixed-width{
+    max-width: 1070px;
+    margin: auto;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 180px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 20px;
+     padding: 0 30px;
+     display: block;
+     line-height: 65px;
+     border-right: 1px solid #ddd;
+     transition: .4s;
+}
+.header-right ul li a:hover{
+    background-color: #2980b9;
+}
+/* Banner */
+.banner{
+    background-image: url(https://www.atakinteractive.com/wp-content/uploads/2018/02/linkedin-profile-improvement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+.banner-caption h2{
+    color: #fff;
+    font-size: 30px;
+    background: gray;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+.banner-caption h1{
+ color: #fff;
+font-size: 50px;
+background: gray;
+width: 500px;
+margin: 30px auto;
+border-radius: 5px;
+}
+
+/* Adout section */
+.about{
+    margin: 40px 0;
+}
+.about h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.about p {
+	font-size: 20px;
+	max-width: 700px;
+	margin: auto;
+}
+/* Servicr Section */
+.service-section{
+    margin-top: 30px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+display: block;
+height: 60px;
+width: 60px;
+background: #3498db;
+margin: auto;
+line-height: 60px;
+font-size: 35px;
+color: #fff;
+border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+ margin: 20px 0;
+font-size: 30px;
+}
+
+/* Blog Section */
+.blog-container{
+    margin-top: 50px;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-right-notification{
+    float: right;
+    width: 25%;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #000;
+}
+.blog-item{
+    margin-bottom: 25px;
+}
+/* Blog Notification */
+.blog-right-notification h2 {
+	font-size: 30px;
+	border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.blog-right-notification ul {
+	list-style: none;
+}
+.blog-right-notification ul li {
+	font-size: 18px;
+	border: 1px solid #ddd;
+	background: #fafafa;
+	padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* Footer section */
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.footer{
+    color: #fff;
+    background-color: #2c3e50;
+    padding: 20px;
+}
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    list-style: none;
+    display: inline-block;   
+}
+.social-menu li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
